@@ -66,7 +66,8 @@ class TFMessagePublisher(Node):
 
             transform_stamped = TransformStamped()
             transform_stamped.header.stamp = self.get_clock().now().to_msg()
-            # transform_stamped.header.frame_id = "iris"
+            transform_stamped.header.frame_id = "iris"
+            transform_stamped.child_frame_id = "iris/link[" + str(i) + "]"
             transform_stamped.transform = transform
 
             msg.transforms.append(transform_stamped)
