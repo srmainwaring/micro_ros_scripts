@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'int32_publisher = micro_ros_scripts.int32_publisher:main',
+            'transform_publisher = micro_ros_scripts.transform_publisher:main',
             'vector3_publisher = micro_ros_scripts.vector3_publisher:main',
         ],
     },
