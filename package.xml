@@ -5,7 +5,7 @@
   <version>0.0.0</version>
   <description>Python scripts for the micro ROS examples.</description>
   <maintainer email="rhys.mainwaring@me.com">Rhys Mainwaring</maintainer>
-  <license>Apache-2.0</license>
+  <license>GPL-3.0</license>
 
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
